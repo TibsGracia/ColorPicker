@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <th class="header pdf_border">Category</th>
             </tr>
         </thead>
-        <a class="pull-right btn btn-warning btn-large" style="margin-right:40px" href="<?php echo base_url()?>pdfs/save_pdf"><i class="fa fa-file-excel-o"></i> PDF Data</a>
+        <a class="pull-right btn btn-warning btn-large" style="margin-right:40px" href="<?= base_url('pdfs/save_pdf')?>"><i class="fa fa-file-excel-o"></i> PDF Data</a>
         <tbody>
             <?php
             if (isset($mobiledata) && !empty($mobiledata)) {
