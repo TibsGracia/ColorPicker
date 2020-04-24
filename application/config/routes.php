@@ -50,5 +50,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'welcome';
+<<<<<<< HEAD
+=======
+// $route['default_controller'] = 'pdfs';
+
+>>>>>>> 0869f2b7fa9f2917ddffa53e69396e18382fbff7
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['table'] = 'pdfs/index';
